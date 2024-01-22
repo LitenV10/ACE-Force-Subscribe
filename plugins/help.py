@@ -68,7 +68,7 @@ async def _start(client, message):
             ]
         ),
         parse_mode="markdown",
-        reply_to_message_id=Message.id
+        reply_to_message_id=message.id
         )
 
 
